@@ -1,0 +1,38 @@
+# Do anything at all?
+enabled: true
+
+exclude:
+  - "**/node_modules/**/*"
+  - "**/vendor/**/*"
+
+auto: false
+
+remote_files: []
+
+pull_requests: true
+
+comments: false
+
+
+statuses:
+
+  differences: true
+
+  no_differences: true
+
+  error: true
+
+request_review: owner
+
+
+labels: []
+
+
+ignore_labels:
+  - restyled-ignore
+
+
+restylers_version: "20200209"
+
+restylers:
+     - prettier
